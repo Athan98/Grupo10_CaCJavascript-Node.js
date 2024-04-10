@@ -12,21 +12,42 @@
     <link rel="stylesheet" href="./static/css/style.css">
     <!--Link FontAwesome-->
     <script src="https://kit.fontawesome.com/fa04600604.js" crossorigin="anonymous"></script>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/fa04600604.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
+        <div class="header-up">
+            <div class="left-wrapper">
+                <div class="logo"> <a href="#"><img src="./static/img/logo.png" alt=""></a></div>
+                <div class="input-wrapper">
+                    <input type="search" class="input-search" placeholder="Buscador">
+                    <i class="fa-solid fa-magnifying-glass" id="icon-search"></i>
+                </div>
+            </div>
+            <div class="right-wrapper"> 
+                <button class="log-in">Iniciar sesión</button>
+                <div class="cart-wrapper"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </div>
+        </div>
+
+
         <nav>
-            <a href="#">Logo_plataforma</a>
+
+
             <ul>
                 <li><a href="#">Destacados</a></li>
                 <li><a href="#">Productos</a></li>
                 <li><a href="#">Ayuda</a></li>
             </ul>
-            <div class="div-search">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" class="search" placeholder="Buscá un producto">
-            </div>
 
         </nav>
     </header>

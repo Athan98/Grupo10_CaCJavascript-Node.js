@@ -1,4 +1,175 @@
+:root {
+    --primary-color: #2E3464;
+    --bg-color: #00000059;
+    --secondary-color: #178C9B;
+    --third-color: #C6ECEF;
+    --white-color: #fdf5ef;
+    /* fuentes */
+    --primary-font: "Kanit", Arial;
+}
+
 * {
     margin: 0;
     padding: 0;
+    /*Scroll efecto suave*/
+    scroll-behavior: smooth;
 }
+
+body,
+html {
+    background: #FFEFBA;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: var(--primary-font);
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 40vh;
+}
+
+main{
+    height: 60vh;
+}
+
+.header-up {
+    top: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.left-wrapper {
+    top: 0;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right-wrapper {
+    top: 0;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+}
+
+/*-------------------------------------*/
+
+/*Colocar etiqueta i dentro del input*/
+
+.input-wrapper {
+    position: relative;
+    width: 271px;
+}
+
+.input-search {
+    box-sizing: border-box;
+    color: #191919;
+    padding: 15px 15px 15px 35px;
+    width: 100%;
+    transition: border-color 0.3s;
+}
+
+#icon-search {
+    color: #191919;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/*-------------------------------------*/
+
+.input-search:hover {
+    border-color: var(--primary-color);
+}
+
+.right-wrapper button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+}
+
+.right-wrapper button:hover {
+    animation: grow 0.5s forwards;
+    background-color: var(--primary-color);
+}
+
+@keyframes grow {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+
+}
+
+.cart-wrapper i {
+    font-size: 2rem;
+    color: var(--secondary-color);
+    transition: color 0.3s;
+}
+
+.cart-wrapper i:hover {
+    color: var(--primary-color);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-color);
+    width: 100vw;
+}
+
+nav ul {
+    list-style-type: none;
+    height: inherit;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 100px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: var(--third-color);
+    transition: background-color 0.3s, border-radius 0.3s, color 0.3s;
+    font-size: 1.5rem;
+    transition: color .3s;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a:hover{
+    color: var(--primary-color);
+}
+
+
