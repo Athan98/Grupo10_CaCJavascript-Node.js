@@ -28,14 +28,6 @@ html {
     padding: 0;
 }
 
-header{
-    height: 40vh;
-}
-
-main{
-    height: 60vh;
-}
-
 .header-up {
     top: 0;
     width: 100vw;
@@ -174,4 +166,37 @@ nav ul li a:hover{
     color: var(--primary-color);
 }
 
+.d-block{
+    height: 450px;
+    width: 100vw;
+}
+
+.featured{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.featured h2{
+    padding: 30px 30px 5px 30px;
+    color: var(--primary-color);
+    border-bottom: 2px var(--secondary-color) solid;
+    font-size: 1.5rem;
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 35px;
+}
+
+.featured-wrapped{
+    width: 80%;
+    height: 300px;
+    border: 0.5px var(--secondary-color) solid;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(46, 52, 100, 0.5);
+    margin-bottom: 35px;
+
+}
 
