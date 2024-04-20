@@ -19,7 +19,7 @@
     scroll-behavior: smooth;
 }
 
-body{
+body {
     background: #FFEFBA;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);
@@ -27,17 +27,18 @@ body{
     background: linear-gradient(to right, #FFFFFF, #FFEFBA);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: var(--primary-font);
-
+    width: 100vw;
 }
 
-.container{
-width: 100vw;
+.container {
+    width: 100%;
 }
 
-header{
+header {
     top: 0;
     width: 100%;
     height: auto;
+    
 }
 
 .header-up {
@@ -175,7 +176,7 @@ nav ul li a:hover {
     color: var(--primary-color);
 }
 
-.banner{
+.banner {
     width: 100%;
 }
 

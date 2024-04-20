@@ -1,0 +1,11 @@
+1) Maquetar y diseñar form -> Gabi
+
+2) Maquetar y diseñar pagina productos -> Nico
+
+3) Maquetar y diseñar plantilla pagina carrito -> Gian
+
+4) Terminar maquetacion y diseño index -> Leo
+
+5) Maquetar y diseñar pagina de login y register -> Gian
+
+6) Hacer todo responsive -> -----
