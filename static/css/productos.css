@@ -1,0 +1,139 @@
+:root {
+    --primary-color: #2E3464;
+    --bg-color: #00000059;
+    --secondary-color: #178C9B;
+    --third-color: #C6ECEF;
+    --white-color: #fdf5ef;
+    /* fuentes */
+    --primary-font: "Kanit", Arial;
+}
+
+* {
+    /*EVITAMOS EL DESBORDE DE CONTENIDO*/
+    box-sizing: border-box;
+
+    /*SE SACAN LOS MARGENES Y SE CENTRA EL DOCUMENTO HORIZONTALMENTE*/
+    margin: 0 auto;
+
+    /*Scroll efecto suave*/
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #FFEFBA;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: var(--primary-font);
+}
+
+.container{
+    width: 100vw;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+
+main .products{
+    width: 70%;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+}
+
+main .product{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    background-color: white;
+    border: 2px #DEE7E7 solid;
+    border-radius: 5px;
+    display: flex;
+}
+
+.image{
+    margin:0;
+    padding: 1rem;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description{
+    margin: 0;
+    padding: 0;
+    padding: 1rem;
+    width: 100%;
+}
+
+.image img{
+    width: 10rem;
+    height: 10rem;
+    padding: 1rem;
+}
+
+.product .description span,a,button{
+    margin:0;
+    padding: 0;
+    display: block;
+}
+
+.product .description span{
+    font-size: 2rem;
+    color: var(--primary-color);
+    padding: 0.2rem;
+}
+
+.product .description a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.product .description button{
+    color: white;
+    font-size: 1rem;
+    font-family: var(--primary-font);
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    font-weight: 300;
+    padding: 0.4rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+main aside{
+    width: 30%;
+    margin-top: 30px;
+}
+
+main aside .categories{
+    width: 100%;
+}
+
+main aside .slider{
+    margin: 0;
+    padding: 0;
+    aspect-ratio: 10/16;
+    width: 300px;
+    position: relative;
+    display: flex;
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+main aside .slider img{
+    width: 100%;
+    left: 0;
+    object-fit: cover;
+    border-radius: 5px;
+    scroll-snap-align: center;
+}
