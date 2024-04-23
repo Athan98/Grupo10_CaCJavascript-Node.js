@@ -1,7 +1,7 @@
 :root {
     --primary-color: #2E3464;
     --bg-color: #00000059;
-    --secondary-color: #178C9B;
+    --secondary-color: #23617F;
     --third-color: #C6ECEF;
     --white-color: #fdf5ef;
     /* fuentes */
@@ -17,28 +17,27 @@
 
     /*Scroll efecto suave*/
     scroll-behavior: smooth;
+
 }
 
 body {
-    background: #FFEFBA;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFFFFF, #FFEFBA);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: var(--primary-font);
     width: 100vw;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
-.container {
-    width: 100%;
-}
 
 header {
     top: 0;
     width: 100%;
     height: auto;
-    
+    background: #00a6a6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00a6a6, #2E3563);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00a6a6, #2E3563);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
 }
 
 .header-up {
@@ -115,17 +114,6 @@ header {
 .right-wrapper button:hover {
     animation: grow 0.5s forwards;
     background-color: var(--primary-color);
-}
-
-@keyframes grow {
-    0% {
-        transform: scale(1);
-    }
-
-    100% {
-        transform: scale(1.1);
-    }
-
 }
 
 .cart-wrapper i {
@@ -224,7 +212,8 @@ nav ul li a:hover {
 footer {
     height: 150px;
     width: 100%;
-    background-color: var(--secondary-color);
+    /* background-color: var(--secondary-color); */
+    background-color: #23617F;
     display: flex;
     align-items: center;
     justify-content: space-around;
