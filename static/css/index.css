@@ -20,6 +20,7 @@
 
 }
 
+
 body {
     font-family: var(--primary-font);
     width: 100vw;
@@ -212,8 +213,7 @@ nav ul li a:hover {
 footer {
     height: 150px;
     width: 100%;
-    /* background-color: var(--secondary-color); */
-    background-color: #23617F;
+    background-color: var(--secondary-color);
     display: flex;
     align-items: center;
     justify-content: space-around;
