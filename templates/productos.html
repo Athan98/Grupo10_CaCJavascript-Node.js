@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Estilos Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!--Estilos propios-->
     <link rel="stylesheet" href="../static/css/index.css">
     <link rel="stylesheet" href="../static/css/productos.css">
@@ -22,7 +25,7 @@
 
 <body>
 
-    <div class="container">
+    <div class="contenedor">
         <header>
             <div class="header-up">
                 <div class="left-wrapper">
@@ -55,22 +58,172 @@
         <main>
 
             <aside>
+
                 <section class="categories">
-                    <ul>
-                        <li>Equipos y Notebooks</li>
-                        <li>Procesadores</li>
-                        <li>Motherboard's</li>
-                        <li>Placas de video</li>
-                        <li>Memorias RAM</li>
-                        <li>Fuentes</li>
-                        <li>Sillas Gamer's</li>
-                        <li>Monitores</li>
-                        <li>Cables y adaptadores</li>
-                        <li>Impresoras e insumos</li>
-                        <li>Conectividad</li>
-                        <li>Periféricos</li>
-                        <li>Kit's de actualización</li>
-                    </ul>
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    Equipos y Notebooks
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li><a href="#">Dell</a></li>
+                                        <li><a href="#">HP</a></li>
+                                        <li><a href="#">Apple</a></li>
+                                        <li><a href="#">Lenovo</a></li>
+                                        <li><a href="#">Acer</a></li>
+                                        <li><a href="#">Samsung</a></li>
+                                        <li><a href="#">Asus</a></li>
+                                        <li><a href="#">MSI</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    Procesadores
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li><a href="#">Procesadores AMD</a></li>
+                                        <li><a href="#">Procesadores Intel</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    Motherboard's
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li><a href="#">Motherboard's AMD</a></li>
+                                        <li><a href="#">Motherboard's Intel</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                    aria-controls="flush-collapseFour">
+                                    Placas de video
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li><a href="#">Placas de Video GeForce</a></li>
+                                        <li><a href="#">Placas de Video Radeon AMD</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFive" aria-expanded="false"
+                                    aria-controls="flush-collapseFive">
+                                    Memorias RAM
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFive" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li><a href="#">Memorias RAM para PC escritorio</a></li>
+                                        <li><a href="#">Memorias RAM para Notebooks</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseSix" aria-expanded="false"
+                                    aria-controls="flush-collapseSix">
+                                    Almacenamiento
+                                </button>
+                            </h2>
+                            <div id="flush-collapseSix" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li><a href="#">Discos Externos</a></li>
+                                        <li><a href="#">Discos Rígidos</a></li>
+                                        <li><a href="#">Discos Sólidos SSD</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseSeven" aria-expanded="false"
+                                    aria-controls="flush-collapseSeven">
+                                    Periféricos
+                                </button>
+                            </h2>
+                            <div id="flush-collapseSeven" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li><a href="#">Volantes - Simuladores de manejo</a></li>
+                                        <li><a href="#">Accesorios y repuestos de teclados</a></li>
+                                        <li><a href="#">Teclados</a></li>
+                                        <li><a href="#">Mouses</a></li>
+                                        <li><a href="#">Webcam</a></li>
+                                        <li><a href="#">Joysticks</a></li>
+                                        <li><a href="#">Mouse Pads</a></li>
+                                        <li><a href="#">Auriculares</a></li>
+                                        <li><a href="#">Parlantes</a></li>
+                                        <li><a href="#">Combos de Teclados, Mouses y otros</a></li>
+                                        <li><a href="#">Micrófonos</a></li>
+                                        <li><a href="#">Accesorios para auriculares</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseEight" aria-expanded="false"
+                                    aria-controls="flush-collapseEight">
+                                    Memorias RAM
+                                </button>
+                            </h2>
+                            <div id="flush-collapseEight" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li><a href="#">Memorias RAM para PC escritorio</a></li>
+                                        <li><a href="#">Memorias RAM para Notebooksl</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </section>
 
                 <div class="slider">
@@ -207,6 +360,13 @@
 
     </div>
 
+    <!--Script Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

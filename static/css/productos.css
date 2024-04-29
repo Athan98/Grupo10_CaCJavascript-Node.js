@@ -8,28 +8,7 @@
     --primary-font: "Kanit", Arial;
 }
 
-* {
-    /*EVITAMOS EL DESBORDE DE CONTENIDO*/
-    box-sizing: border-box;
-
-    /*SE SACAN LOS MARGENES Y SE CENTRA EL DOCUMENTO HORIZONTALMENTE*/
-    margin: 0 auto;
-
-    /*Scroll efecto suave*/
-    scroll-behavior: smooth;
-}
-
-body {
-    background: #FFEFBA;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFFFFF, #FFEFBA);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    font-family: var(--primary-font);
-}
-
-.container{
+.contenedor{
     width: 100%;
 }
 
@@ -118,6 +97,22 @@ main aside{
 
 main aside .categories{
     width: 100%;
+    margin-bottom: 20px;
+}
+
+main aside .categories .accordion-body ul{
+list-style:none;
+}
+
+main aside .categories .accordion-body ul li a{
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease, font-weight 0.3s ease;;
+}
+
+main aside .categories .accordion-body ul li a:hover{
+color: var(--secondary-color);
+font-weight: 600;
 }
 
 main aside .slider{
