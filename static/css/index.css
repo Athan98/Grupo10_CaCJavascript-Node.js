@@ -312,3 +312,21 @@ footer {
 .workWithUs-wrapper h3 a:hover {
     color: var(--primary-color);
 }
+
+
+
+.aBtn {
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #2E3563;
+    /* border: 1px solid transparent; */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-right: 0;
+    margin-left: 5px;
+    font-size: 15px;
+    font-weight: 100;
+   }
+   

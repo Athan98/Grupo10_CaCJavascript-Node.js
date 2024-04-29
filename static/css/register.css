@@ -19,6 +19,11 @@ padding:30px 0;
     
     
 }
+.font-group{
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
 
 .form-group{
     display: flex;
@@ -32,8 +37,17 @@ padding:30px 0;
     position:relative;
    display:flex;
    align-items: center;
+   
 
 }
+
+input::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+
+
 
 
 
@@ -41,13 +55,15 @@ padding:30px 0;
     font-size: 20px;
     font-weight: 200;
     padding-right: 30px;
-    /* background-color: #fff;
+     /* background-color: #fff;
     border: 1px solid #e9e9ea;
-    border-radius: 5px;
+   
     display: block;
-    height: 35px;
+    height: 35px; */
     padding: 3.75px 7.5px;
-    width: 100%; */
+    /* width: 100%; */ 
+    border-radius: 5px;
+    border-width: 1px;
     
 }
 
@@ -129,3 +145,24 @@ button[type="submit"] {
     line-height: 20px; 
     outline: none;
 }
+
+
+
+
+.login a {
+    display: block;
+    font-size: 13px;
+    margin: 15px 0;
+    font-size: 13px;
+    margin: 15px 0; */
+    cursor: pointer;
+    text-align: center;
+    opacity:0.6;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
