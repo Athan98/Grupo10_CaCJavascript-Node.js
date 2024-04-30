@@ -335,3 +335,6 @@ footer {
     font-size: 15px;
     font-weight: 100;
 }
+.aBtn:hover {
+    background-color:#00a6a6;
+}

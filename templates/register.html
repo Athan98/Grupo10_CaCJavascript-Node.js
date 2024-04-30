@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>REGISTER</title>
+    <link rel="stylesheet" href="../static/css/index.css">
     <link rel="stylesheet" href="../static/css/register.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,12 +13,46 @@
         rel="stylesheet">
         <!-- <link rel="stylesheet" href="ruta/a/tu/carpeta/font-awesome/css/all.css"> -->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
-
+        <title>REGISTER</title>
        
 </head>
 
 <body>
     <main>
+
+        <header>
+            <div class="header-up">
+                <div class="left-wrapper">
+                    <div class="logo"> <a href="../index.html"><img src="../static/img/logo.png" alt=""></a></div>
+                    <div class="input-wrapper">
+                        <input type="search" class="input-search" placeholder="Buscador">
+                        <i class="fa-solid fa-magnifying-glass" id="icon-search"></i>
+                    </div>
+                </div>
+                <div class="right-wrapper">
+                    <a href="../templates/register.html" class="aBtn">Creá tu cuenta</a>
+                    <a href="../templates/login.html" class="aBtn">Ingresá</a>
+                    <div class="cart-wrapper"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+            </div>
+    
+    
+            <nav>
+    
+    
+                <ul>
+                    <li><a href="./templates/productos.html">Productos</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="./templates/ayuda.html">Ayuda</a></li>
+                </ul>
+    
+            </nav>
+        </header>
+
+
+
+        
         <section class="create-acount">
             <div class="font-group">
             
@@ -50,7 +84,7 @@
                                                            <i class="fa fa-eye-slash" id="icono-original"></i> 
                                                     </label>
                                     </div>                   
-                                     <button type="submit">Crear</button>
+                                     <button type="submit">Iniciar</button>
                             </form>
 
                             <!-- <div class="login">
@@ -63,6 +97,30 @@
 
         </section>
     </main>
+
+    <footer>
+        <div class="socialNetworks-wrapper">
+            <ul>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+        </div>
+        <div class="contact-wrapper">
+            <h3><a href="#">Contactános</a></h3>
+        </div>
+        <div class="workWithUs-wrapper">
+            <h3><a href="https://www.linkedin.com">Trabajá con nosotros</a></h3>
+        </div>
+    
+    </footer>
+    <section class="copyright">
+        <p>E-CODE Gamer. Todos los derechos reservados. 2024</p>
+    </section>
+
 </body>
     
 </html>
