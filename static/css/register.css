@@ -1,7 +1,4 @@
-*{
-    font-family: 'Ubuntu', sans-serif;
-   }
-   
+
 .create-acount{
        display: flex;
        flex-direction: column;
@@ -23,13 +20,20 @@ padding:30px 0;
     margin: 10px;
     border: 1px solid black;
     border-radius: 10px;
+    min-width: 20vw;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
 }
+
 
 .form-group{
     display: flex;
     flex-direction: column;
     gap: 10px;
     padding:20px;
+    margin: 0;
 }
 
  
@@ -37,31 +41,27 @@ padding:30px 0;
     position:relative;
    display:flex;
    align-items: center;
-   
+   margin: 0;
 
 }
 
-input::placeholder {
+
+
+.form-group input::placeholder{
     font-size: 14px;
     font-weight: 400;
-    
 }
-
 
 
 
 
 .form-group input{
-    font-size: 20px;
+    height: 2.5rem;
     font-weight: 200;
     padding-right: 30px;
-     /* background-color: #fff;
-    border: 1px solid #e9e9ea;
-   
-    display: block;
-    height: 35px; */
+    
     padding: 3.75px 7.5px;
-    /* width: 100%; */ 
+    width: 100%;  
     border-radius: 5px;
     border-width: 1px;
     

@@ -1,14 +1,18 @@
 
+.main-general{
+    
+}
 
 .general-container{
  display: grid;
  gap: 32px;
  grid-template-columns: 2fr 1fr;
  height: auto;
- 
+ font-family:
  min-height: unset;
  margin-bottom: 60px;
  margin: 32px 40px 44px;
+
  
 }
 
