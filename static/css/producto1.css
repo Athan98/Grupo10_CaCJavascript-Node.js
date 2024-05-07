@@ -1,0 +1,115 @@
+:root {
+    --primary-color: #2E3464;
+    --bg-color: #00000059;
+    --secondary-color: #178C9B;
+    --third-color: #C6ECEF;
+    --white-color: #fdf5ef;
+    /* fuentes */
+    --primary-font: "Kanit", Arial;
+}
+
+.contenedor {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+}
+
+.product-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: auto;
+}
+
+.product-image {
+    width: 36%;
+    margin: 2%;
+    height: inherit;
+}
+
+.product-image img {
+    width: 25rem;
+}
+
+.product-info {
+    width: 56%;
+    margin: 2%;
+    height: inherit;
+}
+
+.nameProduct-wrapper {
+    width: 100%;
+    border-bottom: 1px var(--secondary-color) solid;
+    margin-bottom: 1rem;
+}
+
+.nameProduct-wrapper h1 {
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.priceProduct-wrapper {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-bottom: 1px var(--secondary-color) solid;
+}
+
+.priceProduct-wrapper h2 {
+    letter-spacing: 0.2rem;
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+}
+
+.priceProduct-wrapper h3{
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+.warrantyProduct-wrapper{
+    width: 100%;
+    margin-bottom: 1rem;
+    border-bottom: 1px var(--secondary-color) solid;
+    flex-direction: column;
+}
+
+.warrantyProduct-wrapper .text-wrapper{
+    width: 98%;
+}
+
+.warrantyProduct-wrapper .text-wrapper h3,i{
+    display: inline-block;
+    font-size: 1rem;
+    color: green;
+}
+
+.warrantyProduct-wrapper .text-wrapper h3{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.product-info button{
+    padding: 1.5%;
+    font-family: var(--primary-font);
+    font-size: 1.2rem;
+    background-color: var(--secondary-color);
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.product-info button:hover{
+    background-color: var(--primary-color);
+}
+
+.product-specifications{
+    width: 100%;
+}
+
+
+
