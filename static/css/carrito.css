@@ -1,0 +1,106 @@
+
+.main-general{
+    
+}
+
+.general-container{
+ display: grid;
+ gap: 32px;
+ grid-template-columns: 2fr 1fr;
+ height: auto;
+ margin-bottom: 60px;
+ margin: 32px 110px 44px;
+
+
+ 
+}
+
+.div-left{
+    
+    background-color: #fff;
+    border-radius: 6px;
+     min-height: 400px;
+     align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 48px 16px 0;
+    text-align: center;
+    width: 100%;
+    
+}
+
+button[type="submit"] {
+    background-color: #228cff; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    font-size: 16px; /* Tamaño de la fuente */
+    padding: 0 24px; /* Espaciado interno */
+    border: 1px solid #228cff; /* Sin borde */
+    cursor: pointer; /* Cursor de mano al pasar el mouse */
+    border-radius: 6px; /* Radio del borde para bordes redondeados */
+    text-align: center; /* Alineación del texto */
+    width: 100%;
+    display: block;
+    line-height: 48px; 
+    outline: none;
+    font-weight: 600;
+    height: 48px;
+}
+
+
+.up{
+    font-size: 18px;
+    width: 328px;
+    margin-bottom: 8px;
+}
+
+.down{
+    color: rgba(0, 0, 0, .55);
+    font-size: 16px;
+    width: 328px;
+    margin-bottom: 8px;
+    
+}
+
+
+.div-right{
+    background: #f5f5f5;
+        box-shadow: none;
+        margin: 0;
+        border-radius: 6px;
+        height: fit-content;
+        padding: 20px 0 24px;
+        margin-bottom: 16px;
+        margin-top: 0;
+}
+
+.box-buy{
+    padding: 0 24px;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+
+.buy{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, .25);
+}
+
+.separator{
+    margin-bottom: 20px;
+    background: rgba(0, 0, 0, .1);
+    height: 1px;
+    margin: 0;
+    width: 100%;
+}
+
+.box-span{
+    padding: 0 24px;
+}
+
+.pity-text{
+    font-size: 14px;
+    color: rgba(232, 230, 227, 0.25);
+
+}
