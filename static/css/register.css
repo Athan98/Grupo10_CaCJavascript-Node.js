@@ -12,19 +12,20 @@
     font-weight: 400;
 text-align: center;
 margin: 0;
-padding:30px 0;
+padding:70px 0;
     
     
 }
 .font-group{
     margin: 10px;
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 20px;
     min-width: 20vw;
-    min-height: 50vh;
+    min-height: 65vh;
     display: flex;
     flex-direction: column;
     padding-top: 1rem;
+    background-color: #ffff;
 }
 
 
@@ -32,7 +33,8 @@ padding:30px 0;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding:20px;
+  
+    padding:20px ;
     margin: 0;
 }
 
@@ -56,13 +58,13 @@ padding:30px 0;
 
 
 .form-group input{
-    height: 2.5rem;
+    height: 2.8rem;
     font-weight: 200;
     padding-right: 30px;
-    
+    border: 2px solid rgba(0, 0, 0, 0.3);
     padding: 3.75px 7.5px;
     width: 100%;  
-    border-radius: 5px;
+    border-radius: 20px;
     border-width: 1px;
     
 }
@@ -135,10 +137,10 @@ button[type="submit"] {
     background-color: #228cff; /* Color de fondo */
     color: #fff; /* Color del texto */
     font-size: 19px; /* Tamaño de la fuente */
-    padding: 10px; /* Espaciado interno */
+    padding: 12px; /* Espaciado interno */
     border: 1px solid #228cff; /* Sin borde */
     cursor: pointer; /* Cursor de mano al pasar el mouse */
-    border-radius: 5px; /* Radio del borde para bordes redondeados */
+    border-radius: 20px; /* Radio del borde para bordes redondeados */
     text-align: center; /* Alineación del texto */
     width: 100%;
     display: block;
