@@ -6,12 +6,12 @@
 .general-container{
  display: grid;
  gap: 32px;
- grid-template-columns: 2fr 1fr;
+ grid-template-columns: calc(100% - 392px) auto;
  height: auto;
  margin-bottom: 60px;
- margin: 32px 110px 44px;
-
-
+ margin: 32px auto 44px;
+ max-width: 1200px;
+ min-height: unset;
  
 }
 

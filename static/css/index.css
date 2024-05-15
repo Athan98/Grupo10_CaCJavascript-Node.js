@@ -39,19 +39,22 @@ header {
     top: 0;
     width: 100%;
     height: auto;
-    background: #00a6a6;
-    /* fallback for old browsers */
+background-color: black;
+
+    /* background: #00a6a6;
+    
     background: -webkit-linear-gradient(to right, #00a6a6, #2E3563);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #00a6a6, #2E3563);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+    background: linear-gradient(to right, #00a6a6, #2E3563); */
+    
 }
 
 .header-up {
+
     width: 100%;
-    height: auto;
+    height: 80px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -60,20 +63,31 @@ header {
     height: inherit;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    
 }
 
 .right-wrapper {
-    width: 30%;
+    
     height: inherit;
     display: flex;
-    justify-content: space-around;
+    
     align-items: center;
 }
 
+.logo{
+    
+    display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  
+  
+  
+}
+
 .logo img {
-    width: 150px;
-    height: 150px;
+    
+    height: 100px;
+    
 }
 
 /*-------------------------------------*/
@@ -82,25 +96,29 @@ header {
 
 .input-wrapper {
     position: relative;
-    width: 271px;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    
 }
-
+.search-icon{
+    position: absolute;
+    left: 0;
+    padding: 0 15px;
+}
 .input-search {
     box-sizing: border-box;
     color: #191919;
-    padding: 15px 15px 15px 35px;
+    padding: 9px 15px 9px 35px;
     width: 100%;
     transition: border-color 0.3s;
+    border-radius: 20px;
+    border: none;
 }
 
 #icon-search {
     color: #191919;
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 12px;
-    top: 50%;
-    transform: translateY(-50%);
+
 }
 
 /*-------------------------------------*/
@@ -116,6 +134,7 @@ header {
     color: var(--white-color);
     font-size: 1.2rem;
     transition: background-color 0.3s;
+    font
 }
 
 .right-wrapper button:hover {
@@ -123,9 +142,13 @@ header {
     background-color: var(--primary-color);
 }
 
+.cart-wrapper{
+    margin: 0;
+}
+
 .cart-wrapper i {
-    font-size: 2rem;
-    color: var(--secondary-color);
+    font-size: 24px;
+    color: #fff;
     transition: color 0.3s;
 }
 
@@ -137,9 +160,9 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--secondary-color);
+    background-color: #fff;
     width: 100%;
-    height: auto;
+    height: 45px;
 }
 
 nav ul {
@@ -147,6 +170,8 @@ nav ul {
     height: inherit;
     margin: 0;
     padding: 0;
+    display: flex;
+    align-items: center;
 }
 
 nav ul li {
@@ -157,10 +182,11 @@ nav ul li {
 nav ul li a {
     padding: 10px;
     text-decoration: none;
-    color: var(--third-color);
+    color: black;
     transition: background-color 0.3s, border-radius 0.3s, color 0.3s;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     transition: color .3s;
+    text-transform: uppercase;
 }
 
 nav ul li:first-child {
@@ -337,4 +363,90 @@ footer {
 }
 .aBtn:hover {
     background-color:#00a6a6;
+}
+
+
+
+/* -----------BOTON DE LOGIN----------- */
+
+
+.icon-person{
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+}
+
+.dropi{
+    margin: 0;
+    padding: 0;
+}
+.fas.fa-user {
+    font-size: 24px;
+
+}
+
+
+
+ul.dropi li{
+    display: inline-block;
+    position: relative;
+
+}
+
+ul.dropi li a{
+    display: block;
+    padding: 10px 25px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+   /*  text-align: center; */
+   margin: 0;
+}
+
+
+ul.dropi li ul.dropdown li{
+    display: block;
+    background: #ffffff;
+    margin: 2px 0px;
+border-radius: 30px;
+width: 150px;
+height: 40px;
+
+text-align: center;
+}
+
+ul.dropi li ul.dropdown{
+    width: auto;
+    background:none;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    
+}
+
+ul.dropi li a{
+    color: black;
+    
+}
+
+ul.dropi li a:hover{
+    background: #222;
+   
+}
+
+ul.dropi li:hover ul.dropdown{
+    display:block ;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+ul.dropi li button{
+    margin: 0;
+    border:none;
+    background-color: transparent;
+    color: #fff;
+    height: 48px;
+    padding: 0;
 }

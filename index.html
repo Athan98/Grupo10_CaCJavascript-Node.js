@@ -22,24 +22,48 @@
         rel="stylesheet">
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/fa04600604.js" crossorigin="anonymous"></script>
+<!--  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5/6en8XCp+HHAAK5GSLf2xlYtvJ8U2Q4U+9cuEnJoa3" crossorigin="anonymous">
+
+
 </head>
 
 <body>
     <header>
         <div class="header-up">
-            <div class="left-wrapper">
-                <div class="logo"> <a href="#"><img src="./static/img/logo.png" alt=""></a></div>
+            <!-- <div class="left-wrapper"> -->
+                <div class="logo"> <a href="#"><img src="./static/img/newicon3.png" alt=""></a></div>
                 <div class="input-wrapper">
                     <input type="search" class="input-search" placeholder="Buscador">
+                    <label class="search-icon">
                     <i class="fa-solid fa-magnifying-glass" id="icon-search"></i>
+                </label>
                 </div>
+           <!--  </div> -->
+
+            
+            <div class="icon-person">               
+            <ul class="dropi">
+                <li><button class="dropbtn">
+                    <i class="fas fa-user"></i>
+                  </button></a>
+                <ul class="dropdown">
+                  <li><a href="./templates/login.html">Login</a></li>
+                  <li><a href="./templates/">Register</a></li>
+                  
+                </ul>
+                </li>
+            </ul>
             </div>
+              
+              
             <div class="right-wrapper">
-                <a href="./templates/register.html" class="aBtn">Creá tu cuenta</a>
-                <a href="./templates/login.html" class="aBtn">Ingresá</a>
-                <div class="cart-wrapper"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-                </div>
+                <!-- <a href="./templates/register.html" class="aBtn">Creá tu cuenta</a>
+                <a href="./templates/login.html" class="aBtn">Ingresá</a> -->
+                <div class="cart-wrapper"><a href="./templates/carrito.html"><i class="fa-solid fa-cart-shopping"></i></a></div>
             </div>
+
+
         </div>
 
 
@@ -140,6 +164,8 @@
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
 
+
+        
 </body>
 
 </html>
