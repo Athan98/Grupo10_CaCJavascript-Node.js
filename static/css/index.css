@@ -192,23 +192,39 @@ nav ul li a:hover {
     height: 450px;
 }
 
+.conteiner-carrousel{
+    padding: 20px;
+}
+
+
+
 .featured {
     width: 100%;
     display: flex;
     align-items: center;
     height: auto;
     flex-direction: column;
+    
 }
 
-.featured h2 {
-    padding: 30px 30px 5px 30px;
+.cont h2{
+    
     color: black;
     border-bottom: 2px black solid;
     font-size: 1.5rem;
-    width: 95%;
+    width: 90%;
     text-align: left;
-    margin-bottom: 35px;
+    margin: auto;
+    padding-bottom: 10px;
+    font-weight: 400;
 }
+
+.card-body p{
+    
+    font-size: 1.25rem;
+}
+
+
 
 .featured input{
     display: none;
@@ -217,7 +233,7 @@ nav ul li a:hover {
 .catalogo {
     width: 90vw;
     overflow: hidden;
-    border: 1px solid #ccc;
+    
     position: relative;
   }
 
@@ -235,21 +251,36 @@ nav ul li a:hover {
   }
 /* ----------------------------------------- */
   .carousele .carousele-item {
-    width: 18vw; /* Tamaño fijo para los elementos */
+    width: 17.45vw;/* Tamaño fijo para los elementos */
     flex: 0 0 auto;
     display: flex;
     justify-content: center;
-    align-items: center;
+   
     background: #ddd;
-    border: 1px solid #ccc;
+    
     box-sizing: border-box;
-    margin: 0;
+    
+    margin-right: 10px;
   }
 
 .card-body{
-
-
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
+
+.card{
+border: none;
+}
+
+#producto5{
+    margin-right: 0;
+}
+
+#buy-icon{
+    margin-right: 5px;
+}
+
 
 .btn-primary{
     background-color: #fff;
