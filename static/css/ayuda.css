@@ -1,0 +1,62 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex: 1;
+}
+.accordion-container {
+    width: 80%;
+    margin: 0 auto;
+}
+.accordion-item {
+    max-width: 90vw;
+    margin: 0 auto;
+}
+b {
+    color: red;
+}
+
+@media screen and (max-width: 768px){
+    /* Estilo para dispositivos móviles */
+    .header-up {
+        flex-direction: column;
+    }
+    .input-wrapper {
+        margin-top: 10px; /* Agrega espacio entre el logo y el input */
+    }
+
+    .conteiner-icons {
+        flex-direction: column; /* Cambia la dirección de los iconos */
+        margin-top: 10px; /* Agrega espacio entre los iconos */
+    }
+
+    nav ul {
+        flex-direction: column; /* Cambia la dirección de los elementos del menú */
+    }
+
+    nav ul li {
+        margin-bottom: 10px; /* Agrega espacio entre los elementos del menú */
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .nav-menu ul {
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .nav-menu ul li {
+        padding: 10px 0;
+        text-align: center;
+    }
+}
