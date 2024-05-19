@@ -68,6 +68,8 @@ header {
 
     width: 30%;
     height: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .logo img {
@@ -186,12 +188,26 @@ nav ul li a:hover {
 }
 
 .banner {
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
 }
 
 .d-block {
-    height: 450px;
+    height: 100%;
+    width: 100%;
 }
+
+
+
+
+
+
+
+
+
 
 .conteiner-carrousel {
     padding: 20px;
@@ -200,12 +216,12 @@ nav ul li a:hover {
 
 
 .featured {
-    width: 100%;
+    width: 90%;
     display: flex;
     align-items: center;
     height: auto;
     flex-direction: column;
-
+margin: auto;
 }
 
 .cont h2 {
@@ -215,7 +231,8 @@ nav ul li a:hover {
     font-size: 1.5rem;
     width: 90%;
     text-align: left;
-    margin: auto;
+    margin: 20px auto;
+
     padding-bottom: 10px;
     font-weight: 400;
 }
@@ -226,7 +243,7 @@ nav ul li a:hover {
 }
 
 
-
+/* ----------------carousel 2------------- */
 .featured input {
     display: none;
 }
@@ -259,7 +276,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
 
-    background: #ddd;
+    /* background: #ddd; */
 
     box-sizing: border-box;
 
@@ -272,12 +289,31 @@ nav ul li a:hover {
     justify-content: flex-end;
 }
 
+
 .card {
-    border: none;
+    overflow: hidden; 
+border-radius: 20px;
 }
 
-#producto5 {
+.card-img-top{
+    width: 100%; /* Asegura que la imagen llene el ancho de la tarjeta */
+    height: 100%; /* Asegura que la imagen llene la altura de la tarjeta */
+    object-fit: cover;
+}
+
+
+/* #producto5 {
     margin-right: 0;
+} */
+
+.button-right{
+    position: absolute;
+    right: 71px;
+}
+.button-left{
+  position: absolute;
+  left: 71px;
+  z-index: 1;
 }
 
 #buy-icon {
@@ -328,38 +364,28 @@ nav ul li a:hover {
 }
 
 .controls label {
-    background: transparent;
-    color: #000000;
+    background:#000000 ;
+    color: #fff;
 
     border-radius: 50%;
     cursor: pointer;
     user-select: none;
     text-align: center;
     /* Alinea horizontalmente el contenido */
-    border: 1px solid black;
-    display: inline-block;
+    /* border: 1px solid #0077f9 ; */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
     /* Asegura que el label ocupe solo el espacio necesario */
-    width: 30px;
+    width: 50px;
     /* Ancho del círculo */
-    height: 30px;
-    justify-content: center;
-    align-items: center;
+    height: 50px;
+    display: flex;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 100%);
+    opacity: 0.7;
 }
 
 
-
-
-
-
-/* .featured-wrapper {
-    width: 80%;
-    height: 300px;
-    border: 3px var(--secondary-color) solid;
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px rgba(46, 52, 100, 0.5);
-    margin-bottom: 50px;
-    animation: changeColorBorder 1s alternate infinite;
-} */
 
 @keyframes changeColorBorder {
     0% {
@@ -371,6 +397,9 @@ nav ul li a:hover {
     }
 }
 
+
+
+/* --------------FOOTER--------------- */
 footer {
     height: 100px;
     width: 100%;
@@ -476,24 +505,7 @@ footer {
 
 
 
-/* .aBtn {
-    display: inline-block;
-    padding: 5px 10px;
-    text-decoration: none;
-    color: white;
-    background-color: #2E3563;
-    /* border: 1px solid transparent;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    margin-right: 0;
-    margin-left: 5px;
-    font-size: 15px;
-    font-weight: 100;
-}
-.aBtn:hover {
-    background-color:#00a6a6;
-}
- */
+
 
 
 /* -----------BOTON DE LOGIN----------- */

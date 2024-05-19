@@ -185,6 +185,22 @@ button[type="submit"] {
     outline: none;
 }
 
+button[type="submit"]:hover {
+    background-color: #000; /* Cambia el fondo a negro */
+    color: #fff; /* Mantiene las letras blancas */
+    font-size: 19px; /* Tamaño de la fuente */
+    padding: 12px; /* Espaciado interno */
+    border: 1px solid black; /* Sin borde */
+    cursor: pointer; /* Cursor de mano al pasar el mouse */
+    border-radius: 20px; /* Radio del borde para bordes redondeados */
+    text-align: center; /* Alineación del texto */
+    width: 100%;
+    display: block;
+    line-height: 20px; 
+    outline: none;
+    
+}
+
 
 
 .login a {
