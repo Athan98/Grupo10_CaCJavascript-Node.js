@@ -34,7 +34,7 @@ main .product {
     margin-left: 2%;
     margin-right: 2%;
     background-color: white;
-    border: 0.5px rgb(20, 20, 20) solid;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     display: flex;
 }
@@ -93,6 +93,7 @@ button {
     text-align: center;
     text-decoration: none;
     width: 50%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .product .description button i {

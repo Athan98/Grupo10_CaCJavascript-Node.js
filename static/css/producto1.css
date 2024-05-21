@@ -103,6 +103,7 @@ main {
     border: 1px solid black;
     border-radius: 5px;
     transition: background-color 0.3s;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .product-info button:hover {
@@ -137,6 +138,11 @@ main {
     font-size: 1.3rem;
     width: 100%;
     font-family: var(--primary-font);
+    background-color:rgb(20, 20, 20);
+    margin: 0;
+    padding: 0.5%;
+    color: var(--white-color);
+    border-radius: 5px;
 }
 
 .generalSpecifications-wrapper span {
@@ -144,6 +150,8 @@ main {
     width: 100%;
     font-size: 1rem;
     color: black;
+    border-bottom: 1px rgb(20, 20, 20) solid;
+    padding: 3px;
 }
 
 .generalSpecifications-wrapper .right {
@@ -160,6 +168,11 @@ main {
     font-size: 1.3rem;
     width: 100%;
     font-family: var(--primary-font);
+    background-color:rgb(20, 20, 20);
+    margin: 0;
+    padding: 0.5%;
+    color: var(--white-color);
+    border-radius: 5px;
 }
 
 .storageSpecifications-wrapper span {
@@ -167,6 +180,8 @@ main {
     width: 100%;
     font-size: 1rem;
     color: black;
+    border-bottom: 1px rgb(20, 20, 20) solid;
+    padding: 3px;
 }
 
 .storageSpecifications-wrapper .right {
@@ -183,6 +198,11 @@ main {
     font-size: 1.3rem;
     width: 100%;
     font-family: var(--primary-font);
+    background-color:rgb(20, 20, 20);
+    margin: 0;
+    padding: 0.5%;
+    color: var(--white-color);
+    border-radius: 5px;
 }
 
 .screenSpecifications-wrapper span {
@@ -190,6 +210,8 @@ main {
     width: 100%;
     font-size: 1rem;
     color: black;
+    border-bottom: 1px rgb(20, 20, 20) solid;
+    padding: 3px;
 }
 
 .screenSpecifications-wrapper .right {
