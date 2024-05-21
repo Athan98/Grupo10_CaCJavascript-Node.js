@@ -24,39 +24,15 @@ b {
     color: red;
 }
 
-@media screen and (max-width: 768px){
-    /* Estilo para dispositivos móviles */
-    .header-up {
-        flex-direction: column;
-    }
-    .input-wrapper {
-        margin-top: 10px; /* Agrega espacio entre el logo y el input */
-    }
-
-    .conteiner-icons {
-        flex-direction: column; /* Cambia la dirección de los iconos */
-        margin-top: 10px; /* Agrega espacio entre los iconos */
-    }
-
-    nav ul {
-        flex-direction: column; /* Cambia la dirección de los elementos del menú */
-    }
-
-    nav ul li {
-        margin-bottom: 10px; /* Agrega espacio entre los elementos del menú */
-    }
-
-    .nav-menu {
-        display: none;
-    }
-
-    .nav-menu ul {
-        flex-direction: column;
-        padding-left: 0;
-    }
-
-    .nav-menu ul li {
-        padding: 10px 0;
-        text-align: center;
-    }
+/* Estilo para tablets */
+@media screen and (max-width: 1024px)
+{
+ 
 }
+
+/* Estilo para celulares */
+@media screen and (max-width: 767px)
+{
+
+}
+
