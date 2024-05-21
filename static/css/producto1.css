@@ -44,7 +44,7 @@ main {
 
 .nameProduct-wrapper {
     width: 100%;
-    border-bottom: 1px var(--secondary-color) solid;
+    border-bottom: 1px rgb(20, 20, 20) solid;
     margin-bottom: 1rem;
 }
 
@@ -56,60 +56,148 @@ main {
 .priceProduct-wrapper {
     width: 100%;
     margin-bottom: 1rem;
-    border-bottom: 1px var(--secondary-color) solid;
+    border-bottom: 1px rgb(20, 20, 20) solid;
 }
 
 .priceProduct-wrapper h2 {
     letter-spacing: 0.2rem;
-    color: var(--secondary-color);
+    color: rgb(20, 20, 20);
+    font-weight: 750;
     font-size: 1.5rem;
 }
 
-.priceProduct-wrapper h3{
-    color: var(--primary-color);
+.priceProduct-wrapper h3 {
+    color: #0077f9;
     font-size: 1.2rem;
-    font-weight: lighter;
+    font-weight: 400;
 }
 
-.warrantyProduct-wrapper{
+.warrantyProduct-wrapper {
     width: 100%;
     margin-bottom: 1rem;
     border-bottom: 1px var(--secondary-color) solid;
     flex-direction: column;
 }
 
-.warrantyProduct-wrapper .text-wrapper{
+.warrantyProduct-wrapper .text-wrapper {
     width: 98%;
 }
 
-.warrantyProduct-wrapper .text-wrapper h3,i{
+.warrantyProduct-wrapper .text-wrapper h3,
+#text,
+#warranty {
     display: inline-block;
     font-size: 1rem;
     color: green;
 }
 
-.warrantyProduct-wrapper .text-wrapper h3{
+.warrantyProduct-wrapper .text-wrapper h3 {
     margin-left: 1%;
     margin-right: 1%;
 }
 
-.product-info button{
-    padding: 1.5%;
-    font-family: var(--primary-font);
-    font-size: 1.2rem;
-    background-color: var(--secondary-color);
-    color: white;
+.product-info button {
+    font-size: 19px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid black;
     border-radius: 5px;
     transition: background-color 0.3s;
 }
 
-.product-info button:hover{
-    background-color: var(--primary-color);
+.product-info button:hover {
+    background-color: #000000;
+    color: #fff;
 }
 
-.product-specifications{
+.product-info button i {
+    margin: 5px;
+}
+
+.product-specifications {
     width: 100%;
 }
 
+.product-specifications {
+    width: 100%;
+}
 
+.generalSpecifications-wrapper,
+.storageSpecifications-wrapper,
+.screenSpecifications-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    padding: 1.5% 5%;
+}
 
+.generalSpecifications-wrapper h2 {
+    font-size: 1.3rem;
+    width: 100%;
+    font-family: var(--primary-font);
+}
+
+.generalSpecifications-wrapper span {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    color: black;
+}
+
+.generalSpecifications-wrapper .right {
+    text-align: right;
+    width: 50%;
+}
+
+.generalSpecifications-wrapper .left {
+    align-items: left;
+    width: 50%;
+}
+
+.storageSpecifications-wrapper h2 {
+    font-size: 1.3rem;
+    width: 100%;
+    font-family: var(--primary-font);
+}
+
+.storageSpecifications-wrapper span {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    color: black;
+}
+
+.storageSpecifications-wrapper .right {
+    text-align: right;
+    width: 50%;
+}
+
+.storageSpecifications-wrapper .left {
+    align-items: left;
+    width: 50%;
+}
+
+.screenSpecifications-wrapper h2 {
+    font-size: 1.3rem;
+    width: 100%;
+    font-family: var(--primary-font);
+}
+
+.screenSpecifications-wrapper span {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    color: black;
+}
+
+.screenSpecifications-wrapper .right {
+    text-align: right;
+    width: 50%;
+}
+
+.screenSpecifications-wrapper .left {
+    align-items: left;
+    width: 50%;
+}

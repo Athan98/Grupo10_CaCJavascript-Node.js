@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOTEBOOK LENOVO LEGION 5</title>
+    <!-- Link Favicon -->
+    <link rel="shortcut icon" href="../static/img/icono.ico" type="image/x-icon">
     <!--Estilos Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -20,7 +23,10 @@
         rel="stylesheet">
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/fa04600604.js" crossorigin="anonymous"></script>
-    <title>Notebook Gamer Lenovo Legion 5</title>
+    <!--  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5/6en8XCp+HHAAK5GSLf2xlYtvJ8U2Q4U+9cuEnJoa3" crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -29,50 +35,51 @@
         <header>
             <div class="header-up">
                 <!-- <div class="left-wrapper"> -->
-                    <div class="logo"> <a href="../index.html"><img src="../static/img/newicon3.png" alt=""></a></div>
-                    <div class="input-wrapper">
-                        <input type="search" class="input-search" placeholder="Buscador">
-                        <label class="search-icon">
+                <div class="logo"> <a href="../index.html"><img src="../static/img/newicon3.png" alt=""></a></div>
+                <div class="input-wrapper">
+                    <input type="search" class="input-search" placeholder="Buscador">
+                    <label class="search-icon">
                         <i class="fa-solid fa-magnifying-glass" id="icon-search"></i>
                     </label>
+                </div>
+                <!--  </div> -->
+
+                <div class="conteiner-icons">
+                    <div class="icon-person">
+                        <ul class="dropi">
+                            <li><button class="dropbtn">
+                                    <i class="fas fa-user"></i>
+                                </button>
+                                <ul class="dropdown">
+                                    <li><a href="./login.html">Login</a></li>
+                                    <li><a href="./register.html">Register</a></li>
+
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
-               <!--  </div> -->
-    
-            <div class="conteiner-icons">
-                <div class="icon-person">               
-                <ul class="dropi">
-                    <li><button class="dropbtn">
-                        <i class="fas fa-user"></i>
-                      </button>
-                    <ul class="dropdown">
-                      <li><a href="./login.html">Login</a></li>
-                      <li><a href="./register.html">Register</a></li>
-                      
-                    </ul>
-                    </li>
-                </ul>
-                </div>
-                  
-                  
-                <div class="right-wrapper">
-                    <!-- <a href="./templates/register.html" class="aBtn">Creá tu cuenta</a>
+
+
+                    <div class="right-wrapper">
+                        <!-- <a href="./templates/register.html" class="aBtn">Creá tu cuenta</a>
                     <a href="./templates/login.html" class="aBtn">Ingresá</a> -->
-                    <div class="cart-wrapper"><a href="./carrito.html"><i class="fa-solid fa-cart-shopping"></i></a></div>
+                        <div class="cart-wrapper"><a href="./carrito.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
                 </div>
+
             </div>
-    
-            </div>
-    
-    
+
+
             <nav>
-    
-    
+
+
                 <ul>
                     <li><a href="./productos.html">Productos</a></li>
                     <li><a href="#">Servicios</a></li>
                     <li><a href="./ayuda.html">Ayuda</a></li>
                 </ul>
-    
+
             </nav>
         </header>
 
@@ -103,20 +110,20 @@
 
                     <div class="warrantyProduct-wrapper">
                         <div class="text-wrapper">
-                            <i class="fa-solid fa-shield-halved"></i>
+                            <i class="fa-solid fa-shield-halved" id="warranty"></i>
                             <h3>Garantía por 12 meses</h3>
                         </div>
                         <div class="text-wrapper">
-                            <i class="fa-solid fa-check"></i>
+                            <i class="fa-solid fa-check" id="text"></i>
                             <h3>Stock disponible</h3>
                         </div>
                         <div class="text-wrapper">
-                            <i class="fa-solid fa-truck"></i>
+                            <i class="fa-solid fa-truck" id="text"></i>
                             <h3>Envíos a todo el país</h3>
                         </div>
                     </div>
 
-                    <button>Sumar al carrito</button>
+                    <button><i class="fa-solid fa-cart-shopping"></i>Agregar al carrito</button>
 
                 </section>
 
@@ -125,34 +132,58 @@
             <section class="product-specifications">
                 <div class="generalSpecifications-wrapper">
                     <h2>Características generales</h2>
-                    <span class="left">COLOR</span><span class="right">Stingray</span>
-                    <span class="left">SISTEMA OPERATIVO</span><span class="right">Windows 11 Home</span>
-                    <span class="left">TIPO DE CPU</span><span class="right">AMD</span>
-                    <span class="left">TIPO DE GPU</span><span class="right">AMD Radeon</span>
-                    <span class="left">BATERÍA EXTRAÍBLE</span><span class="right">No</span>
-                    <span class="left">MODELO GPU</span><span class="right">Radeon RX 6600M</span>
-                    <span class="left">MODELO CPU</span><span class="right">Ryzen 5 5600H</span>
-                    <span class="left">MEMORIA GPU</span><span class="right">8 gb</span>
+                    <div class="left">
+                        <span>COLOR</span>
+                        <span>SISTEMA OPERATIVO</span>
+                        <span>TIPO DE CPU</span>
+                        <span>TIPO DE GPU</span>
+                        <span>BATERÍA EXTRAÍBLE</span>
+                        <span>MODELO GPU</span>
+                        <span>MODELO CPU</span>
+                        <span>MEMORIA GPU</span>
+                    </div>
+                    <div class="right">
+                        <span>Stingray</span>
+                        <span>Windows 11 Home</span>
+                        <span>AMD</span>
+                        <span>AMD Radeon</span>
+                        <span>No</span>
+                        <span>Radeon RX 6600M</span>
+                        <span>Ryzen 5 5600H</span>
+                        <span>8 gb</span>
+                    </div>
                 </div>
                 <div class="storageSpecifications-wrapper">
                     <h2>Almacenamiento</h2>
-                    <span class="left">SLOT M2</span><span class="right">Si</span>
-                    <span class="left">CAPACIDAD HD</span><span class="right">0 gb</span>
-                    <span class="left">TIPO DE M.2</span><span class="right">NVME</span>
-                    <span class="left">CAPACIDAD SÓLIDO</span><span class="right">512 gb</span>
-                    <span class="left">LECTOR DE MEMORIAS</span><span class="right">No</span>
+                    <div class="left">
+                        <span>SLOT M2</span>
+                        <span>CAPACIDAD HD</span>
+                        <span>TIPO DE M.2</span>
+                        <span>CAPACIDAD SÓLIDO</span>
+                        <span>LECTOR DE MEMORIAS</span>
+                    </div>
+                    <div class="right">
+                        <span>Si</span>
+                        <span>0 gb</span>
+                        <span>NVME</span>
+                        <span>512 gb</span>
+                        <span>No</span>
+                    </div>
                 </div>
                 <div class="screenSpecifications-wrapper">
                     <h2>Pantalla</h2>
-                    <span class="left">Tamaño de la pantalla</span><span class="right">15.60 pulgadas</span>
-                    <span class="left">Tipo de display</span><span class="right">IPS</span>
+                    <div class="left">
+                        <span>TAMAÑO DE LA PANTALLA</span>
+                        <span>TIPO DE DISPLAY</span>
+                    </div>
+                    <div class="right">
+                        <span>15.60 pulgadas</span>
+                        <span>IPS</span>
+                    </div>
                 </div>
             </section>
 
-
         </main>
-
-
 
         <footer>
             <div class="socialNetworks-wrapper">

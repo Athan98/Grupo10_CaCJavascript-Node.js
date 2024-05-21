@@ -22,8 +22,9 @@
         rel="stylesheet">
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/fa04600604.js" crossorigin="anonymous"></script>
-<!--  -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5/6en8XCp+HHAAK5GSLf2xlYtvJ8U2Q4U+9cuEnJoa3" crossorigin="anonymous">
+    <!--  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5/6en8XCp+HHAAK5GSLf2xlYtvJ8U2Q4U+9cuEnJoa3" crossorigin="anonymous">
 
 
 </head>
@@ -32,37 +33,38 @@
     <header>
         <div class="header-up">
             <!-- <div class="left-wrapper"> -->
-                <div class="logo"> <a href="#"><img src="./static/img/newicon3.png" alt=""></a></div>
-                <div class="input-wrapper">
-                    <input type="search" class="input-search" placeholder="Buscador">
-                    <label class="search-icon">
+            <div class="logo"> <a href="#"><img src="./static/img/newicon3.png" alt=""></a></div>
+            <div class="input-wrapper">
+                <input type="search" class="input-search" placeholder="Buscador">
+                <label class="search-icon">
                     <i class="fa-solid fa-magnifying-glass" id="icon-search"></i>
                 </label>
-                </div>
-           <!--  </div> -->
+            </div>
+            <!--  </div> -->
 
-        <div class="conteiner-icons">
-            <div class="icon-person">               
-            <ul class="dropi">
-                <li><button class="dropbtn">
-                    <i class="fas fa-user"></i>
-                  </button>
-                <ul class="dropdown">
-                  <li><a href="./templates/login.html">Login</a></li>
-                  <li><a href="./templates/">Register</a></li>
-                  
-                </ul>
-                </li>
-            </ul>
-            </div>
-              
-              
-            <div class="right-wrapper">
-                <!-- <a href="./templates/register.html" class="aBtn">Creá tu cuenta</a>
+            <div class="conteiner-icons">
+                <div class="icon-person">
+                    <ul class="dropi">
+                        <li><button class="dropbtn">
+                                <i class="fas fa-user"></i>
+                            </button>
+                            <ul class="dropdown">
+                                <li><a href="./templates/login.html">Login</a></li>
+                                <li><a href="./templates/">Register</a></li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="right-wrapper">
+                    <!-- <a href="./templates/register.html" class="aBtn">Creá tu cuenta</a>
                 <a href="./templates/login.html" class="aBtn">Ingresá</a> -->
-                <div class="cart-wrapper"><a href="./templates/carrito.html"><i class="fa-solid fa-cart-shopping"></i></a></div>
+                    <div class="cart-wrapper"><a href="./templates/carrito.html"><i
+                                class="fa-solid fa-cart-shopping"></i></a></div>
+                </div>
             </div>
-        </div>
 
         </div>
 
@@ -78,193 +80,224 @@
 
         </nav>
     </header>
-   
-        <main>
-            <section class="banner">
-                <!--Carousel del banner automatico-->
 
-                <div class="banner-carousel">
-                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active" data-bs-interval="3000">
-                                <img src="./static/img/banner-oferta1.jpg" class="d-block w-100" alt="Example1">
-                            </div>
-                            <div class="carousel-item" data-bs-interval="3000">
-                                <img src="./static/img/banner_oferta4.jpg" class="d-block w-100" alt="Example4">
-                            </div>
-                            <div class="carousel-item" data-bs-interval="3000">
-                                <img src="./static/img/banner_oferta5.jpg" class="d-block w-100" alt="Example4">
-                            </div>
-                            <div class="carousel-item" data-bs-interval="3000">
-                                <img src="./static/img/banner_oferta6.jpg" class="d-block w-100" alt="Example4">
-                            </div>
+    <main>
+        <section class="banner">
+            <!--Carousel del banner automatico-->
+
+            <div class="banner-carousel">
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="3000">
+                            <img src="./static/img/banner-oferta1.jpg" class="d-block w-100" alt="Example1">
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Anterior</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Siguiente </span>
-                        </button>
-                    </div>
-                </div>
-            </section>
-
-            <section class="conteiner-carrousel">
-                <div class="cont">
-                    <h2>ÚLTIMAS NOVEDADES</h2>
-                </div>
-
-                     
-                <div class="featured">
-                    <div class="controls">
-                        <label class="button-left" for="prev"> < </label>
-                    
-
-                    <input  type="radio" id="prev" name="carousel" checked>
-                    <input  type="radio" id="next" name="carousel">
-                  
-                    <div class="catalogo">
-                      <div class="carousele">
-                        <div class="carousele-track">
-                            <div class="carousele-item">
-                                <div class="card">
-                                    <img src="./static/img/carrousel1.jpg" class="card-img-top" alt="Imagen de la tarjeta 1">
-                                    <div class="card-body">
-                                        <h5 class="card-title">VIDEO AMD RADEON RX 560 4GB ASUS ROG STRIX V2 GAMING</h5>
-                                        <p class="card-text">$111.499,98</p>
-                                        <a href="#" class="btn-primary"><i  id="buy-icon" class="fa-solid fa-cart-shopping"></i>Agregar</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousele-item">
-                                <div class="card">
-                                    <img src="./static/img/carrousel2.jpg" class="card-img-top" alt="Imagen de la tarjeta 2">
-                                    <div class="card-body">
-                                        <h5 class="card-title">AURICULARES HYPERX CLOUD FLIGHT PC PS5 PS4 WIRELESS </h5>
-                                        <p class="card-text">$98.720,02</p>
-                                        <a href="#" class="btn-primary"><i  id="buy-icon" class="fa-solid fa-cart-shopping"></i>Agregar</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousele-item">
-                                <div class="card">
-                                    <img src="./static/img/carrousel3.jpg" class="card-img-top" alt="Imagen de la tarjeta 3">
-                                    <div class="card-body">
-                                        <h5 class="card-title">MEMORIA 32GB (2X16GB) DDR5 7800 PATRIOT VIPER</h5>
-                                        <p class="card-text">$317.999,90</p>
-                                        <a href="#" class="btn-primary"><i id="buy-icon" class="fa-solid fa-cart-shopping"></i>Agregar</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousele-item">
-                                <div class="card">
-                                    <img src="./static/img/carrousel4.jpg" class="card-img-top" alt="Imagen de la tarjeta 4">
-                                    <div class="card-body">
-                                        <h5 class="card-title">VIDEO GEFORCE GTX 1660 SUPER 6GB ASUS TUF GAMING</h5>
-                                        <p class="card-text">$512.359,69</p>
-                                        <a href="#" class="btn-primary"><i id="buy-icon" class="fa-solid fa-cart-shopping"></i>Agregar</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousele-item" id="producto5">
-                                <div class="card">
-                                    <img src="./static/img/carrousel5.jpg" class="card-img-top" alt="Imagen de la tarjeta 4">
-                                    <div class="card-body">
-                                        <h5 class="card-title">TECLADO HYPERX MKW100 SWITCH RED GAMER MECANICO</h5>
-                                        <p class="card-text">$62.699,94</p>
-                                        <a href="#" class="btn-primary"><i id="buy-icon" class="fa-solid fa-cart-shopping"></i>Agregar</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousele-item">
-                                <div class="card">
-                                    <img src="./static/img/carrousel6.jpg" class="card-img-top" alt="Imagen de la tarjeta 6">
-                                    <div class="card-body">
-                                        <h5 class="card-title">MONITOR 24" PHILIPS 241V8L/77 FHD VGA HDMI 1920X1080</h5>
-                                        <p class="card-text">$129.499,89</p>
-                                        <a href="#" class="btn-primary"><i id="buy-icon" class="fa-solid fa-cart-shopping"></i>Agregar</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousele-item">
-                                <div class="card">
-                                    <img src="./static/img/carrousel7.jpg" class="card-img-top" alt="Imagen de la tarjeta 7">
-                                    <div class="card-body">
-                                        <h5 class="card-title">NOTEBOOK LENOVO 15.6" RYZEN 5 5500U 8GB 256GB</h5>
-                                        <p class="card-text">$653.999,61</p>
-                                        <a href="#" class="btn-primary"><i id="buy-icon" class="fa-solid fa-cart-shopping"></i>Agregar</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousele-item">
-                                <div class="card">
-                                    <img src="./static/img/carrousel8.jpg" class="card-img-top" alt="Imagen de la tarjeta 8">
-                                    <div class="card-body">
-                                        <h5 class="card-title">PC GAMER ARMADA AMD RYZEN 3 3200G A320 8GB 480GB</h5>
-                                        <p class="card-text">$292.929,95</p>
-                                        <a href="#" class="btn-primary"><i  id="buy-icon" class="fa-solid fa-cart-shopping"></i>Agregar</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousele-item">
-                                <div class="card">
-                                    <img src="./static/img/carrousel9.jpg" class="card-img-top" alt="Imagen de la tarjeta 9">
-                                    <div class="card-body">
-                                        <h5 class="card-title">VIDEO GEFORCE GTX 1660 SUPER 6GB ASUS TUF GAMING</h5>
-                                        <p class="card-text">$293.999,66</p>
-                                        <a href="#" class="btn-primary"><i id="buy-icon" class="fa-solid fa-cart-shopping"></i>Agregar</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousele-item">
-                                <div class="card">
-                                    <img src="./static/img/carrousel10.jpg" class="card-img-top" alt="Imagen de la tarjeta 10">
-                                    <div class="card-body">
-                                        <h5 class="card-title">MONITOR 24" ASUS TUF VG24VQ 144HZ FHD 1MS CURVO GAMER </h5>
-                                        <p class="card-text">$283.899,77</p>
-                                        <a href="#" class="btn-primary"><i id="buy-icon"  class="fa-solid fa-cart-shopping"></i>Agregar</a>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="./static/img/banner_oferta4.jpg" class="d-block w-100" alt="Example4">
                         </div>
-                      </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="./static/img/banner_oferta5.jpg" class="d-block w-100" alt="Example4">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="./static/img/banner_oferta6.jpg" class="d-block w-100" alt="Example4">
+                        </div>
                     </div>
-                  
-                    <label class="button-right" for="next"> > </label>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente </span>
+                    </button>
                 </div>
             </div>
-            </section>
-
-
-        </main>
-
-        <footer>
-            <div class="socialNetworks-wrapper">
-                <ul>
-                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
-                </ul>
-            </div>
-            <div class="contact-wrapper">
-                <h3><a href="./templates/contacto.html">Contactános</a></h3>
-            </div>
-            <div class="workWithUs-wrapper">
-                <h3><a href="https://www.linkedin.com">Trabajá con nosotros</a></h3>
-            </div>
-        
-        </footer>
-
-        <section class="copyright">
-            <p>E-CODE Gamer. Todos los derechos reservados. 2024</p>
         </section>
+
+        <section class="conteiner-carrousel">
+            <div class="cont">
+                <h2>ÚLTIMAS NOVEDADES</h2>
+            </div>
+
+
+            <div class="featured">
+                <div class="controls">
+                    <label class="button-left" for="prev">
+                        < </label>
+
+
+                            <input type="radio" id="prev" name="carousel" checked>
+                            <input type="radio" id="next" name="carousel">
+
+                            <div class="catalogo">
+                                <div class="carousele">
+                                    <div class="carousele-track">
+                                        <div class="carousele-item">
+                                            <div class="card">
+                                                <img src="./static/img/carrousel1.jpg" class="card-img-top"
+                                                    alt="Imagen de la tarjeta 1">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">VIDEO AMD RADEON RX 560 4GB ASUS ROG STRIX V2
+                                                        GAMING</h5>
+                                                    <p class="card-text">$111.499,98</p>
+                                                    <a href="#" class="btn-primary"><i id="buy-icon"
+                                                            class="fa-solid fa-cart-shopping"></i>Agregar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousele-item">
+                                            <div class="card">
+                                                <img src="./static/img/carrousel2.jpg" class="card-img-top"
+                                                    alt="Imagen de la tarjeta 2">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">AURICULARES HYPERX CLOUD FLIGHT PC PS5 PS4
+                                                        WIRELESS </h5>
+                                                    <p class="card-text">$98.720,02</p>
+                                                    <a href="#" class="btn-primary"><i id="buy-icon"
+                                                            class="fa-solid fa-cart-shopping"></i>Agregar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousele-item">
+                                            <div class="card">
+                                                <img src="./static/img/carrousel3.jpg" class="card-img-top"
+                                                    alt="Imagen de la tarjeta 3">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">MEMORIA 32GB (2X16GB) DDR5 7800 PATRIOT VIPER
+                                                    </h5>
+                                                    <p class="card-text">$317.999,90</p>
+                                                    <a href="#" class="btn-primary"><i id="buy-icon"
+                                                            class="fa-solid fa-cart-shopping"></i>Agregar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousele-item">
+                                            <div class="card">
+                                                <img src="./static/img/carrousel4.jpg" class="card-img-top"
+                                                    alt="Imagen de la tarjeta 4">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">VIDEO GEFORCE GTX 1660 SUPER 6GB ASUS TUF
+                                                        GAMING</h5>
+                                                    <p class="card-text">$512.359,69</p>
+                                                    <a href="#" class="btn-primary"><i id="buy-icon"
+                                                            class="fa-solid fa-cart-shopping"></i>Agregar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousele-item" id="producto5">
+                                            <div class="card">
+                                                <img src="./static/img/carrousel5.jpg" class="card-img-top"
+                                                    alt="Imagen de la tarjeta 4">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">TECLADO HYPERX MKW100 SWITCH RED GAMER
+                                                        MECANICO</h5>
+                                                    <p class="card-text">$62.699,94</p>
+                                                    <a href="#" class="btn-primary"><i id="buy-icon"
+                                                            class="fa-solid fa-cart-shopping"></i>Agregar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousele-item">
+                                            <div class="card">
+                                                <img src="./static/img/carrousel6.jpg" class="card-img-top"
+                                                    alt="Imagen de la tarjeta 6">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">MONITOR 24" PHILIPS 241V8L/77 FHD VGA HDMI
+                                                        1920X1080</h5>
+                                                    <p class="card-text">$129.499,89</p>
+                                                    <a href="#" class="btn-primary"><i id="buy-icon"
+                                                            class="fa-solid fa-cart-shopping"></i>Agregar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousele-item">
+                                            <div class="card">
+                                                <img src="./static/img/carrousel7.jpg" class="card-img-top"
+                                                    alt="Imagen de la tarjeta 7">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">NOTEBOOK LENOVO 15.6" RYZEN 5 5500U 8GB 256GB
+                                                    </h5>
+                                                    <p class="card-text">$653.999,61</p>
+                                                    <a href="#" class="btn-primary"><i id="buy-icon"
+                                                            class="fa-solid fa-cart-shopping"></i>Agregar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousele-item">
+                                            <div class="card">
+                                                <img src="./static/img/carrousel8.jpg" class="card-img-top"
+                                                    alt="Imagen de la tarjeta 8">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">PC GAMER ARMADA AMD RYZEN 3 3200G A320 8GB
+                                                        480GB</h5>
+                                                    <p class="card-text">$292.929,95</p>
+                                                    <a href="#" class="btn-primary"><i id="buy-icon"
+                                                            class="fa-solid fa-cart-shopping"></i>Agregar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousele-item">
+                                            <div class="card">
+                                                <img src="./static/img/carrousel9.jpg" class="card-img-top"
+                                                    alt="Imagen de la tarjeta 9">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">VIDEO GEFORCE GTX 1660 SUPER 6GB ASUS TUF
+                                                        GAMING</h5>
+                                                    <p class="card-text">$293.999,66</p>
+                                                    <a href="#" class="btn-primary"><i id="buy-icon"
+                                                            class="fa-solid fa-cart-shopping"></i>Agregar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousele-item">
+                                            <div class="card">
+                                                <img src="./static/img/carrousel10.jpg" class="card-img-top"
+                                                    alt="Imagen de la tarjeta 10">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">MONITOR 24" ASUS TUF VG24VQ 144HZ FHD 1MS
+                                                        CURVO GAMER </h5>
+                                                    <p class="card-text">$283.899,77</p>
+                                                    <a href="#" class="btn-primary"><i id="buy-icon"
+                                                            class="fa-solid fa-cart-shopping"></i>Agregar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <label class="button-right" for="next"> > </label>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <div class="socialNetworks-wrapper">
+            <ul>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+        </div>
+        <div class="contact-wrapper">
+            <h3><a href="./templates/contacto.html">Contactános</a></h3>
+        </div>
+        <div class="workWithUs-wrapper">
+            <h3><a href="https://www.linkedin.com">Trabajá con nosotros</a></h3>
+        </div>
+
+    </footer>
+
+    <section class="copyright">
+        <p>E-CODE Gamer. Todos los derechos reservados. 2024</p>
+    </section>
 
 
 
@@ -277,7 +310,7 @@
         crossorigin="anonymous"></script>
 
 
-        
+
 </body>
 
 </html>
