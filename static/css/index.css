@@ -1111,7 +1111,7 @@ ul.dropi li button {
     }
     
     .socialNetworks-wrapper ul li a:hover {
-        color: var(--primary-color);
+        color: #0077f9;
     }
     
     .contact-wrapper {
@@ -1135,7 +1135,7 @@ ul.dropi li button {
     }
     
     .contact-wrapper h3 a:hover {
-        color: var(--primary-color);
+        color: #0077f9;
     }
     
     .workWithUs-wrapper {
@@ -1158,7 +1158,7 @@ ul.dropi li button {
     }
     
     .workWithUs-wrapper h3 a:hover {
-        color: var(--primary-color);
+        color: #0077f9;
     }
     
     
