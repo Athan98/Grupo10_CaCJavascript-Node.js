@@ -1,3 +1,13 @@
+:root {
+    --primary-color: #2E3464;
+    --bg-color: #00000059;
+    --secondary-color: #23617F;
+    --third-color: #C6ECEF;
+    --white-color: #fdf5ef;
+    /* fuentes */
+    --primary-font: "Kanit", Arial;
+}
+
 body, html {
     height: 100%;
     margin: 0;
@@ -19,9 +29,24 @@ main {
 .accordion-item {
     max-width: 90vw;
     margin: 0 auto;
+    background: #ADA996;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+}
+.accordion-button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.accordion-button:not(.collapsed){
+    background-color: var(--primary-color);
+    color: var(--third-color);
 }
 b {
-    color: red;
+    color: var(--primary-color);
 }
 
 /* Estilo para tablets */
@@ -31,7 +56,7 @@ b {
 }
 
 /* Estilo para celulares */
-@media screen and (max-width: 767px)
+@media screen and (max-width: 480px)
 {
 
 }
