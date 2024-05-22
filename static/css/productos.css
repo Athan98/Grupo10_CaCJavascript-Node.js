@@ -88,8 +88,8 @@ button {
     color: black;
     cursor: pointer;
     display: block;
-    font-size: 19px;
-    padding: 15px;
+    font-size: 1.4rem;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
     width: 50%;
@@ -148,4 +148,157 @@ main aside .slider img {
     object-fit: cover;
     border-radius: 5px;
     scroll-snap-align: center;
+}
+
+/* Estilo para tablets */
+/* Falta solamente hacer que la navbar esté en lista vertical o con menú desplegable */
+@media screen and (max-width: 1024px) {
+
+    main {
+        flex-direction: column;
+    }
+
+    main aside {
+        width: 100%;
+    }
+
+     main .products{
+        width: 100%;
+    }
+
+    main .product{
+        width: 96%;
+    }
+
+    main .product{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image{
+        width: 60%;
+    }
+
+    .description{
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .product .description span{
+        font-size: 2rem;
+    }
+
+    .product .description a{
+        font-size: 1.8rem;
+    }
+
+    .product .description button{
+        font-size: 1.2rem;
+        width: 40%;
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    main {
+        flex-direction: column;
+    }
+
+    main aside {
+        width: 100%;
+    }
+
+     main .products{
+        width: 100%;
+    }
+
+    main .product{
+        width: 96%;
+    }
+
+    main .product{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image{
+        width: 60%;
+    }
+
+    .description{
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .product .description span{
+        font-size: 1.8rem;
+    }
+
+    .product .description a{
+        font-size: 1.6rem;
+    }
+
+    .product .description button{
+        width: 60%;
+        margin: 5px;
+    }
+}
+
+/* Estilo para celulares */
+@media screen and (max-width: 480px) {
+
+    
+    main {
+        flex-direction: column;
+    }
+
+    main aside {
+        width: 100%;
+    }
+
+     main .products{
+        width: 100%;
+    }
+
+    main .product{
+        width: 96%;
+    }
+
+    main .product{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image{
+        width: 75%;
+    }
+
+    .description{
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .product .description span{
+        font-size: 1.6rem;
+    }
+
+    .product .description a{
+        font-size: 1.4rem;
+    }
+
+    .product .description button{
+        font-size: 1rem;
+        width: 80%;
+        margin: 5px;
+    }
 }
