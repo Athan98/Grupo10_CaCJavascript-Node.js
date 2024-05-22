@@ -70,21 +70,6 @@
         
     }
 
-    /* .......................... */
-
-
-   /*  .logo .responsive-image {
-        display: block;
-    }
-    .logo .responsive-image.movil {
-        display: none;
-    }
-    
- */
- 
-
-
-
  
 body {
     background: #ADA996;
@@ -678,6 +663,132 @@ ul.dropi li button {
     padding: 0;
 }
  
+/* Estilo para tablets */
+/* Falta solamente hacer que la navbar esté en lista vertical o con menú desplegable */
+@media screen and (max-width: 1024px) {
+    .header-up {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .logo {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .logo img {
+        height: 20vw;
+    }
+    
+    .input-wrapper {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    
+    .right-wrapper {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav ul li {
+        padding: 10px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul li a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 45px;
+    }
+
+    .banner {
+        width: 100%;
+    }
+
+    .featured {
+        width: 100%;
+    }
+
+    .carousele .carousele-item {
+        width: 90%;
+    }
+}
+
+/* Estilo para celulares */
+@media screen and (max-width: 480px) {
+    .header-up {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .logo {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    
+    .input-wrapper {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    
+    .right-wrapper {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav ul li {
+        padding: 10px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner {
+        width: 100%;
+    }
+
+    .featured {
+        width: 100%;
+    }
+
+    .carousele .carousele-item {
+        width: 90%;
+    }
+
+    .conteiner-icons {
+        width: 100%;
+        justify-content: space-around;
+    }
+    
+    .input-search {
+        width: 100%;
+        padding: 9px 15px;
+    }
+    
+    .dropi {
+        margin: 0;
+    }
+
+    .copyright p {
+        font-size: 0.6rem;
+        letter-spacing: 0.3rem;
+    }
+}
+
 
 
 
