@@ -20,16 +20,37 @@
 
 }
 
-    .banner-carousel {
-        display: block; /* Asegura que el carrusel sea visible en pantallas grandes */
-    }
-    .banner-carousel-small{
-        display: none;
-    }
+       
+/* tablet */
+.banner-carousel-medium{
+    display: none;
+}
+.featured3{
+    display: none;
+}
 
-    .second-banner {
-        display: none;
-    }
+
+/* pc */
+.banner-carousel {
+    display: block;
+} 
+
+.conteiner-carrousel{
+    display: block;
+}
+
+
+/* cel */
+.banner-carousel-small {
+    display: none;
+
+}
+
+.featured2{
+display: none;
+}
+
+
 /* ............................ */
 
     .banner {
