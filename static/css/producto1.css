@@ -75,7 +75,7 @@ main {
 .warrantyProduct-wrapper {
     width: 100%;
     margin-bottom: 1rem;
-    border-bottom: 1px var(--secondary-color) solid;
+    border-bottom: 1px rgb(20, 20, 20) solid;
     flex-direction: column;
 }
 
@@ -138,7 +138,7 @@ main {
     font-size: 1.3rem;
     width: 100%;
     font-family: var(--primary-font);
-    background-color:rgb(20, 20, 20);
+    background-color: rgb(20, 20, 20);
     margin: 0;
     padding: 0.5%;
     color: var(--white-color);
@@ -168,7 +168,7 @@ main {
     font-size: 1.3rem;
     width: 100%;
     font-family: var(--primary-font);
-    background-color:rgb(20, 20, 20);
+    background-color: rgb(20, 20, 20);
     margin: 0;
     padding: 0.5%;
     color: var(--white-color);
@@ -198,7 +198,7 @@ main {
     font-size: 1.3rem;
     width: 100%;
     font-family: var(--primary-font);
-    background-color:rgb(20, 20, 20);
+    background-color: rgb(20, 20, 20);
     margin: 0;
     padding: 0.5%;
     color: var(--white-color);
@@ -222,4 +222,205 @@ main {
 .screenSpecifications-wrapper .left {
     align-items: left;
     width: 50%;
+}
+
+/* Estilo para tablets */
+@media screen and (max-width: 1024px) {
+
+    main {
+        flex-direction: column;
+    }
+
+    main .product-wrapper {
+        flex-direction: column;
+    }
+
+    main .product-image {
+        width: 90%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .product-image img {
+        width: 60%;
+    }
+
+    main .product-info {
+        width: 90%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nameProduct-wrapper,
+    .priceProduct-wrapper,
+    .warrantyProduct-wrapper {
+        width: 100%;
+    }
+
+    .nameProduct-wrapper h1{
+        font-size: 1.8rem;
+    }
+
+    .priceProduct-wrapper h2{
+        font-size: 2rem;
+    }
+
+    .priceProduct-wrapper h3{
+        font-size: 1.2rem;
+    }
+
+    .warrantyProduct-wrapper .text-wrapper h3{
+        font-size: 1rem;
+    }
+
+    .warrantyProduct-wrapper .text-wrapper i{
+        font-size: 1rem;
+    }
+
+    button{
+        width: 40%;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    
+    main {
+        flex-direction: column;
+    }
+
+    main .product-wrapper {
+        flex-direction: column;
+    }
+
+    main .product-image {
+        width: 90%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .product-image img {
+        width: 60%;
+    }
+
+    main .product-info {
+        width: 90%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nameProduct-wrapper,
+    .priceProduct-wrapper,
+    .warrantyProduct-wrapper {
+        width: 100%;
+    }
+
+    .nameProduct-wrapper h1{
+        font-size: 1.5rem;
+    }
+
+    .priceProduct-wrapper h2{
+        font-size: 1.8rem;
+    }
+
+    .priceProduct-wrapper h3{
+        font-size: 1rem;
+    }
+
+    .warrantyProduct-wrapper .text-wrapper h3{
+        font-size: 0.8rem;
+    }
+
+    .warrantyProduct-wrapper .text-wrapper i{
+        font-size: 0.8rem;
+    }
+
+    button{
+        width: 40%;
+    }
+
+    .product-specifications h2{
+        font-size: 1rem;
+    }
+
+    .product-specifications span{
+        font-size: 0.8rem;
+    }
+
+}
+
+/* Estilo para celulares */
+@media screen and (max-width: 480px) {
+
+        
+    main {
+        flex-direction: column;
+    }
+
+    main .product-wrapper {
+        flex-direction: column;
+    }
+
+    main .product-image {
+        width: 90%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .product-image img {
+        width: 60%;
+    }
+
+    main .product-info {
+        width: 90%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nameProduct-wrapper,
+    .priceProduct-wrapper,
+    .warrantyProduct-wrapper {
+        width: 100%;
+    }
+
+    .nameProduct-wrapper h1{
+        font-size: 1.2rem;
+    }
+
+    .priceProduct-wrapper h2{
+        font-size: 1.5rem;
+    }
+
+    .priceProduct-wrapper h3{
+        font-size: 0.8rem;
+    }
+
+    .warrantyProduct-wrapper .text-wrapper h3{
+        font-size: 0.8rem;
+    }
+
+    .warrantyProduct-wrapper .text-wrapper i{
+        font-size: 0.8rem;
+    }
+
+    .product-wrapper button{
+        width: 40%;
+        font-size: 0.8rem;
+    }
+
+    .product-specifications h2{
+        font-size: 1rem;
+    }
+
+    .product-specifications span{
+        font-size: 0.6rem;
+    }
+
 }
