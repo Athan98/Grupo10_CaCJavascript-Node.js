@@ -685,6 +685,12 @@ ul.dropi li button {
     padding: 0;
 }
  
+.nav2{
+    display: none;
+}
+
+
+
 /* Estilo para tablets */
 /* Falta solamente hacer que la navbar esté en lista vertical o con menú desplegable */
 @media screen and (max-width: 1024px) {
@@ -827,8 +833,12 @@ ul.dropi li button {
         color: #007bff; 
       }
       
-      
-      
+      .nav2{
+        display: block;
+      }
+      .nav1{
+        display: none;
+      }
 
 }
 
