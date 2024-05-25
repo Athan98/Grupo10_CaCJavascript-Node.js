@@ -813,7 +813,7 @@ ul.dropi li button {
         letter-spacing: 0.3rem;
     }
 
-/* 
+
     .navbar {
         background-color: #f8f9fa;
       }
@@ -827,11 +827,7 @@ ul.dropi li button {
         color: #007bff; 
       }
       
-      @media (max-width: 992px) {
-       .navbar.navbar-toggler {
-          background-color: #fff; 
-        }
-      } */
+      
       
 
 }
