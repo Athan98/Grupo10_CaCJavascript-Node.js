@@ -35,15 +35,20 @@
     <div class="contenedor">
         <header>
             <div class="header-up">
-                <!-- <div class="left-wrapper"> -->
-                <div class="logo"> <a href="../index.html"><img src="../static/img/newicon3.png" alt=""></a></div>
+
+                <div class="logo"> <a href="../index.html"><img src="../static/img/newicon3.2.png" class="responsive-image"
+                            alt="logo"></a>
+                    <!-- <a href="#"><img src="./static/img/newicon3.2.png" class="responsive-image movil" alt="logo"></a> -->
+                </div>
+
+
                 <div class="input-wrapper">
-                    <input type="search" class="input-search" placeholder="Buscador">
+                    <input class="input-search" placeholder="Buscador"> <!-- type="search" -->
                     <label class="search-icon">
                         <i class="fa-solid fa-magnifying-glass" id="icon-search"></i>
                     </label>
                 </div>
-                <!--  </div> -->
+
 
                 <div class="conteiner-icons">
                     <div class="icon-person">
@@ -52,8 +57,8 @@
                                     <i class="fas fa-user"></i>
                                 </button>
                                 <ul class="dropdown">
-                                    <li><a href="./login.html">Login</a></li>
-                                    <li><a href="./register.html">Register</a></li>
+                                    <li><a href="../templates/login.html">Login</a></li>
+                                    <li><a href="../templates/register.html">Register</a></li>
 
                                 </ul>
                             </li>
@@ -64,24 +69,68 @@
                     <div class="right-wrapper">
                         <!-- <a href="./templates/register.html" class="aBtn">Creá tu cuenta</a>
                     <a href="./templates/login.html" class="aBtn">Ingresá</a> -->
-                        <div class="cart-wrapper"><a href="./carrito.html"><i class="fa-solid fa-cart-shopping"></i></a>
-                        </div>
+                        <div class="cart-wrapper"><a href="../templates/carrito.html"><i
+                                    class="fa-solid fa-cart-shopping"></i></a></div>
                     </div>
                 </div>
 
             </div>
+            <!-- ----------------------------- -->
+            <div class="nav1">
+                <nav>
 
 
-            <nav>
+                    <ul>
+                        <li><a href="../templates/productos.html">Productos</a></li>
+                        <li><a href="#">Servicios</a></li>
+                        <li><a href="../templates/ayuda.html">Ayuda</a></li>
+                    </ul>
+
+                </nav>
 
 
-                <ul>
-                    <li><a href="./productos.html">Productos</a></li>
-                    <li><a href="#">Servicios</a></li>
-                    <li><a href="./ayuda.html">Ayuda</a></li>
-                </ul>
 
-            </nav>
+            </div>
+            <!-- ----------------------- -->
+
+            <div class="nav2">
+
+                <nav class="navbar navbar-expand-sm navbar-ligth nav-bar">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#mynavbar" aria-expanded="true">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="navbar-collapse collapse" id="mynavbar">
+                            <ul class="navbar-nav me-auto">
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="../templates/productos.html"
+                                        style="font-size: 16px; color: black;">Productos</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="#" style="font-size: 16px; color: black;">Servicios</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../templates/ayuda.html"
+                                        style="font-size: 16px; color: black;">Ayuda</a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </nav>
+                <!-- ------------------------- -->
+
+
+            </div>
+
+
+
+
+
         </header>
 
         <main>
