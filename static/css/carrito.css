@@ -38,7 +38,7 @@ main {
 
 .div-left{
     
-    background-color: #fff;
+    background-color: #84848451;
     border-radius: 6px;
      min-height: 400px;
      align-items: center;
@@ -53,7 +53,7 @@ main {
 
 button[type="submit"] {
     background-color: #228cff; /* Color de fondo */
-    color: #fff; /* Color del texto */
+   
     font-size: 16px; /* Tamaño de la fuente */
     padding: 0 24px; /* Espaciado interno */
     border: 1px solid #228cff; /* Sin borde */
@@ -66,8 +66,13 @@ button[type="submit"] {
     outline: none;
     font-weight: 600;
     height: 48px;
+    
 }
 
+.div-left a{
+    text-decoration:none;
+    color: #fff;
+}
 
 .up{
     font-size: 18px;
@@ -85,7 +90,7 @@ button[type="submit"] {
 
 
 .div-right{
-    background: #f5f5f5;
+    background: #00000089;
         box-shadow: none;
         margin: 0;
         border-radius: 6px;
@@ -105,7 +110,7 @@ button[type="submit"] {
 .buy{
     font-size: 18px;
     font-weight: 600;
-    color: rgba(0, 0, 0, .25);
+    color: rgb(255, 255, 255);
 }
 
 .separator{
@@ -122,6 +127,6 @@ button[type="submit"] {
 
 .pity-text{
     font-size: 14px;
-    color: rgba(232, 230, 227, 0.25);
+    color: rgba(255, 255, 255, 0.25);
 
 }
