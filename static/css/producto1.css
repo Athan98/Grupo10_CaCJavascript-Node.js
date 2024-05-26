@@ -279,13 +279,13 @@ main {
         font-size: 1rem;
     }
 
-    button{
+    /* button{
         width: 40%;
-    }
+    } */
 
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
 
     
     main {
@@ -340,10 +340,10 @@ main {
         font-size: 0.8rem;
     }
 
-    button{
+   /*  button{
         width: 40%;
     }
-
+ */
     .product-specifications h2{
         font-size: 1rem;
     }
@@ -422,5 +422,9 @@ main {
     .product-specifications span{
         font-size: 0.6rem;
     }
+
+
+
+
 
 }
