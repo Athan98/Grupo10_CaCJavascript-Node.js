@@ -28,7 +28,7 @@ padding:70px 0;
     z-index: -1;
 }
 
-img {
+.video-background img {
     min-width: 100%;
     min-height: 100%;
     width: auto;
