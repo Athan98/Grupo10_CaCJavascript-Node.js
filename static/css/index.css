@@ -218,6 +218,7 @@ header {
 .cart-wrapper i:hover {
     color: #0077f9;
 }
+
 /* ------NAV------- */
 nav {
     display: flex;
@@ -685,6 +686,7 @@ ul.dropi li button {
     padding: 0;
 }
  
+
 .nav2{
     display: none;
 }
