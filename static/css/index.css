@@ -692,7 +692,6 @@ ul.dropi li button {
 
 
 /* Estilo para tablets */
-/* Falta solamente hacer que la navbar esté en lista vertical o con menú desplegable */
 @media screen and (max-width: 1024px) {
     .header-up {
         flex-direction: column;
@@ -769,7 +768,7 @@ ul.dropi li button {
         padding: 10px 0;
     }
 
-    .contact-wrapper, .workWithUs-wrapper {
+    .workWithUs-wrapper {
         border-bottom: none;
     }
    
