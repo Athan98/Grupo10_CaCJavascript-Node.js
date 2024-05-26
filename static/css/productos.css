@@ -122,7 +122,7 @@ main aside .categories .accordion-body ul {
 
 main aside .categories .accordion-body ul li a {
     text-decoration: none;
-    color: black;
+    color: var(--white-color);
     transition: color 0.3s ease, font-weight 0.3s ease;
 }
 
@@ -150,6 +150,10 @@ main aside .slider img {
     scroll-snap-align: center;
 }
 
+.accordion-body {
+    background-color: rgb(20, 20, 20);
+}
+
 /* Estilo para tablets */
 /* Falta solamente hacer que la navbar esté en lista vertical o con menú desplegable */
 @media screen and (max-width: 1024px) {
@@ -162,40 +166,40 @@ main aside .slider img {
         width: 100%;
     }
 
-     main .products{
+    main .products {
         width: 100%;
     }
 
-    main .product{
+    main .product {
         width: 96%;
     }
 
-    main .product{
+    main .product {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .image{
+    .image {
         width: 60%;
     }
 
-    .description{
+    .description {
         width: 90%;
         justify-content: center;
         align-items: center;
         text-align: center;
     }
 
-    .product .description span{
+    .product .description span {
         font-size: 2rem;
     }
 
-    .product .description a{
+    .product .description a {
         font-size: 1.8rem;
     }
 
-    .product .description button{
+    .product .description button {
         font-size: 1.2rem;
         width: 40%;
         margin: 5px;
@@ -213,40 +217,40 @@ main aside .slider img {
         width: 100%;
     }
 
-     main .products{
+    main .products {
         width: 100%;
     }
 
-    main .product{
+    main .product {
         width: 96%;
     }
 
-    main .product{
+    main .product {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .image{
+    .image {
         width: 60%;
     }
 
-    .description{
+    .description {
         width: 90%;
         justify-content: center;
         align-items: center;
         text-align: center;
     }
 
-    .product .description span{
+    .product .description span {
         font-size: 1.8rem;
     }
 
-    .product .description a{
+    .product .description a {
         font-size: 1.6rem;
     }
 
-    .product .description button{
+    .product .description button {
         width: 60%;
         margin: 5px;
     }
@@ -255,7 +259,7 @@ main aside .slider img {
 /* Estilo para celulares */
 @media screen and (max-width: 480px) {
 
-    
+
     main {
         flex-direction: column;
     }
@@ -264,40 +268,40 @@ main aside .slider img {
         width: 100%;
     }
 
-     main .products{
+    main .products {
         width: 100%;
     }
 
-    main .product{
+    main .product {
         width: 96%;
     }
 
-    main .product{
+    main .product {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .image{
+    .image {
         width: 75%;
     }
 
-    .description{
+    .description {
         width: 90%;
         justify-content: center;
         align-items: center;
         text-align: center;
     }
 
-    .product .description span{
+    .product .description span {
         font-size: 1.6rem;
     }
 
-    .product .description a{
+    .product .description a {
         font-size: 1.4rem;
     }
 
-    .product .description button{
+    .product .description button {
         font-size: 1rem;
         width: 80%;
         margin: 5px;
