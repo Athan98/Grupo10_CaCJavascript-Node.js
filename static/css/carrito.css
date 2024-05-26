@@ -1,7 +1,28 @@
-
-.main-general{
-    
+:root {
+    --primary-color: #2E3464;
+    --bg-color: #00000059;
+    --secondary-color: #23617F;
+    --third-color: #C6ECEF;
+    --white-color: #fdf5ef;
+    /* fuentes */
+    --primary-font: "Kanit", Arial;
 }
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex: 1;
+}
+
 
 .general-container{
  display: grid;

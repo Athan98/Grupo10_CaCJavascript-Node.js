@@ -49,15 +49,4 @@ b {
     color: var(--primary-color);
 }
 
-/* Estilo para tablets */
-@media screen and (max-width: 1024px)
-{
- 
-}
-
-/* Estilo para celulares */
-@media screen and (max-width: 480px)
-{
-
-}
 
